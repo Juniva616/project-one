@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(230, 240, 239);
+}
+#home {
+    background-color: rgb(159, 252, 159);
+    background-image: url("../images/bg-cat1.jpg");
+    background-size:  cover; height: 20rem;
+    color: antiquewhite;
+    padding: 2rem;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif 
+    font-size: 2em;
+    
+    
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
