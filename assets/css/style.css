@@ -1,18 +1,37 @@
 body {
     background-color: rgb(230, 240, 239);
+    color: blue;
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #home {
     background-color: rgb(159, 252, 159);
-    background-image: url("../images/bg-cat1.jpg");
+    background-image: url("../images/bg-cat.jpg");
     background-size:  cover; height: 20rem;
     color: antiquewhite;
-    padding: 2rem;
-    border-radius: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif 
+    padding: 2rem 30px 30px 2em;
+    border-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
     font-size: 2em;
-    
-    
-}
+    }
+    #motto {
+        font-style: italic;
+        font-weight: 100;
+        position: relative;
+        top: 150px;
+    }
+    h1,h2 {
+        font-family: 'Merienda One', 'Brush Script MT', cursive;
+      }
+      
+      h1 {
+        font-size: 4rem;
+        margin: 0;
+      }
+      
+      h2 {
+        font-size: xx-large;
+      }
 
 .text-center {
     text-align: center;
