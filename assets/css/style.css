@@ -5,10 +5,10 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #home {
-    background-color: rgb(159, 252, 159);
+    background-color: rgb(4, 71, 4);
     background-image: url("../images/bg-cat.jpg");
     background-size:  cover; height: 20rem;
-    color: antiquewhite;
+    color: rgb(255, 252, 248);
     padding: 2rem 30px 30px 2em;
     border-radius: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
