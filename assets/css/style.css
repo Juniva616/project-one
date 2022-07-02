@@ -17,8 +17,9 @@ body {
     #motto {
         font-style: italic;
         font-weight: 100;
-        position: relative;
-        top: 150px;
+    }
+    #navbar {
+      background-color: rgb(10, 126, 97);
     }
     h1,h2 {
         font-family: 'Merienda One', 'Brush Script MT', cursive;
@@ -32,11 +33,18 @@ body {
       h2 {
         font-size: xx-large;
       }
-
-.text-center {
-    text-align: center;
+  
+.album {
+  float: left;
+  width: 20%;
+  margin-left: 3%;
 }
-
-.text-left {
-    text-align: left;
+.album a {
+  text-align: center;
+}
+img {
+  width: 100%;
+}
+h2 {
+  text-align: center;
 }
