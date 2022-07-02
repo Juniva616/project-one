@@ -1,6 +1,6 @@
 body {
     background-color: rgb(230, 240, 239);
-    color: blue;
+    color: rgb(30, 30, 97);
     font-size: 1.2em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -10,17 +10,26 @@ body {
     background-size:  cover; height: 20rem;
     color: rgb(255, 252, 248);
     padding: 2rem 30px 30px 2em;
-    border-radius: 30px;
+    border-radius: 30px 30px 0 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     font-size: 2em;
     }
     #motto {
         font-style: italic;
         font-weight: 100;
+        position: relative;
+        top: 50%;
     }
     #navbar {
+      color: antiquewhite;
       background-color: rgb(10, 126, 97);
+      height: 40px;
+      text-align: center;
     }
+  .text-center {
+    text-align: center;
+  }
+
     h1,h2 {
         font-family: 'Merienda One', 'Brush Script MT', cursive;
       }
@@ -36,7 +45,7 @@ body {
   
 .album {
   float: left;
-  width: 20%;
+  width: 30%;
   margin-left: 3%;
 }
 .album a {
@@ -47,4 +56,9 @@ img {
 }
 h2 {
   text-align: center;
+}
+.free {
+  margin: 20px;
+  padding: 20px;
+  top: 10px;
 }
