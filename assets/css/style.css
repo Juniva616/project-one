@@ -1,6 +1,6 @@
 body {
     background-color: rgb(230, 240, 239);
-    color: rgb(45, 45, 121);
+    color: rgb(104, 13, 165);
     font-size: 1.2em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -47,8 +47,12 @@ body {
   
 .album {
   float: left;
-  width: 28%;
-  margin-left: 3%;
+  width: 30%;
+  margin: 2%;
+  bottom: 0%;
+}
+.my {
+  clear: both;
 }
 .album a {
   text-align: center;
