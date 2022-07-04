@@ -28,6 +28,10 @@ body {
       text-align: center;
       border-radius: 0 0 30px 30px;
     }
+    #navbar a {
+      color: white;
+    }
+    
   .text-center {
     text-align: center;
   }
