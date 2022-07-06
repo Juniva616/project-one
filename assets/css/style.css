@@ -4,22 +4,36 @@ body {
     font-size: 1.2em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#home {
+#header-home {
     background-color: rgb(4, 71, 4);
     background-image: url("../images/bg-cat.jpg");
     background-size:  cover; height: 20rem;
     color: rgb(255, 252, 248);
-    padding: 2rem 30px 30px 2em;
+    padding: 30px 30px 30px 40px;
     border-radius: 30px 30px 0 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     font-size: 2em;
+    }
+    h1,h2 {
+      font-family: "freightBig", serif, 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    h1 {
+      font-size: 4rem;
+      font-weight: 700;
+      position: relative;
+      top: 30%;      
+    }
+    
+    h2 {
+      font-size: xx-large;
     }
     #motto {
       color: rgb(202, 225, 235);
         font-style: italic;
         font-weight: 100;
         position: relative;
-        top: 50%;
+        top: 45%;
     }
     #navbar {
       color: antiquewhite;
@@ -35,19 +49,6 @@ body {
   .text-center {
     text-align: center;
   }
-
-    h1,h2 {
-        font-family: 'Merienda One', 'Brush Script MT', cursive;
-      }
-      
-      h1 {
-        font-size: 4rem;
-        margin: 0;
-      }
-      
-      h2 {
-        font-size: xx-large;
-      }
   
 .album {
   float: left;
